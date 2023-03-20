@@ -1,0 +1,12 @@
+name: "python hello world action"
+description: "python hello world action"
+inputs:
+  name:
+    description: "Who to greet"
+    required: true
+  repo:
+    description: "repo name"
+    required: true
+runs:
+  using: docker
+  image: "Dockerfile"
