@@ -7,6 +7,9 @@ inputs:
   repo:
     description: "repo name"
     required: true
+  ext:
+    description: "ext to find"
+    required: true
 runs:
   using: docker
   image: "Dockerfile"
